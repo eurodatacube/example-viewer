@@ -1,4 +1,4 @@
-# Example Viewer Template
+# Euro Data Cube Jupyter Example Notebooks Viewer
 
 This template repository is intended to allow easy instantiation of an example viewer for jupyterlab notebooks.
 External repositories can be added via git submodules to the external_notebooks folder.
