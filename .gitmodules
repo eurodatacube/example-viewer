@@ -1,3 +1,6 @@
 [submodule "external_notebooks/eoxhub-workspaces/eoxhub-notebooks"]
 	path = external_notebooks/eoxhub-workspaces/eoxhub-notebooks
 	url = https://github.com/eoxhub-workspaces/eoxhub-notebooks.git
+[submodule "external_notebooks/eurodatacube/notebooks"]
+	path = external_notebooks/eurodatacube/notebooks
+	url = https://github.com/eurodatacube/notebooks.git
