@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+
+  # Allow to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
