@@ -56,7 +56,7 @@
         el.addEventListener('click:result-action', (e) => {
           const urlObj = new URL(`${e.detail.gitpuller}`);
           LuigiClient.addCoreSearchParams(Object.fromEntries(urlObj.searchParams));
-          LuigiClient.linkManager().preserveQueryParams(true).fromVirtualTreeRoot().navigate(urlObj.pathname);
+          LuigiClient.linkManager().preserveQueryParams(true).navigate(urlObj.pathname);
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
